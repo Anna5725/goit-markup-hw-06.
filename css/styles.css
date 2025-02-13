@@ -426,7 +426,8 @@ padding-bottom: 40px;
 
 /*Advantages*/
 .advantages-container {
-  margin: 96px 0;
+  margin-top: 96px;
+  margin-bottom: 96px;
 }
 .section-two-title {
   font-weight: 700;
@@ -498,7 +499,8 @@ width: 356px;
 .advantages-container {
  max-width: 1158px;
  height: 224px;
- margin: 120px 0
+ margin-top: 120px;
+ margin-bottom:120px;
 }
 .adv-text {
 font-weight: 400;
