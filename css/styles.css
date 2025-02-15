@@ -769,11 +769,6 @@ gap: 8px;
   width: calc((100% - 24px)/3);
 }
 .portfolio-item {
-  position: relative;
-  overflow: hidden;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   box-shadow:none
 }
 
