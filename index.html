@@ -45,7 +45,7 @@
 <!--Mobile-menu-->
 <div class="mobile">
     <div class="container container-mobile">
-        <button class="mobile-close-btn" type="button">
+        <button class="mobile-close-btn" type="button" >
             <svg class="close-icon-mobile" width="8" height="8">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -109,7 +109,7 @@
      <section class="hero">
     <div class="container hero-container">
         <h1 class="page-title"> Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <button class="button" type="button" data-modal-open>Order Service</button>
     </div>
     </section>
    <!---SECTION-2-ADVANTAGES-->
@@ -516,9 +516,9 @@
 </div></div>
 
 </footer> 
-<div class="backdrop">
+<div class="backdrop" data-modal>
 <div class="modal-container">
-    <button type="button" class="modal-close">
+    <button type="button" class="modal-close"    data-modal-close>
     <svg class="close-icon" width="8" height="8">
         <use href="./images/icons.svg#icon-close">
         </use>
@@ -567,5 +567,6 @@ value="true" name="user-privacy" id="user-privacy">
     <button type="button" class="button-modal">Send</button></div>
 </form>
 </div></div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
